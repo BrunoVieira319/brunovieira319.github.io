@@ -2,19 +2,20 @@
 <html lang="pt-br">
   <head>
     <title>Página Portfólio - Bruno Vieira</title>
-    <meta charset="utf-8"> 
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://brunovieira319.github.io/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700" rel="stylesheet">
-    <!--Carousel-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700" rel="stylesheet">
+      <!--Carousel links-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
   </head>
-  
+
   <body>
     <main class="container-fluid">
-      
+
       <nav class="row">
         <div class="col-xs-12 icons">
           <a href="https://github.com/BrunoVieira319">
@@ -30,7 +31,7 @@
           </button>
         </div>
       </nav>
-      
+
       <div class="row intro">
         <div class="container layer">
           <div class="col-sm-6 col-xs-12 my-img-container">
@@ -38,20 +39,20 @@
           </div>
           <div class="col-sm-6 col-xs-12 text-intro">
             <h1>Meu nome é Bruno,</h1>
-            <p> sou estudante de 
+            <p> sou estudante de
             <br>Técnico em Informática.</p>
           </div>
         </div>
       </div>
-      
+
       <div class="row about-me">
         <div class="col-xs-12">
           <h2>Sobre mim</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius pulvinar arcu. Pellentesque eget ligula id nibh condimentum ultricies ut ut sem. Sed sit amet mi quis risus aliquam laoreet. Sed dapibus blandit pretium. Donec in ex turpis. Nam iaculis, augue id ultrices cursus, leo tortor convallis ante, vitae lacinia sem leo in velit. Ut at vehicula felis. Vestibulum enim massa, aliquet sed tellus eu, varius tempus ipsum. Phasellus consectetur odio vel est elementum venenatis. Morbi ultrices sapien nibh, sed fringilla nibh facilisis ut. Aenean ac libero libero. 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius pulvinar arcu. Pellentesque eget ligula id nibh condimentum ultricies ut ut sem. Sed sit amet mi quis risus aliquam laoreet. Sed dapibus blandit pretium. Donec in ex turpis. Nam iaculis, augue id ultrices cursus, leo tortor convallis ante, vitae lacinia sem leo in velit. Ut at vehicula felis. Vestibulum enim massa, aliquet sed tellus eu, varius tempus ipsum. Phasellus consectetur odio vel est elementum venenatis. Morbi ultrices sapien nibh, sed fringilla nibh facilisis ut. Aenean ac libero libero.
           </p>
         </div>
       </div>
-      
+
       <div class="row projects">
         <div class="col-md-3 col-xs-12">
           <h2>Meus Projetos</h2>
@@ -93,10 +94,10 @@
             </a>
           </div>
         </div>
-      
+
         <div class="row contact-me">
           <h2> Entre em contato </h2>
-           <form action="/action_page.php">
+           <form id="formulario" method="POST">
               <div class="row">
                 <label class="required" for="name">Seu nome:</label><br>
                 <input id="name" class="input" name="name" type="text"><br>
@@ -110,10 +111,10 @@
                 <textarea id="message" class="input" name="message" rows="10"></textarea><br>
               </div>
 
-              <input class="submit-button" type="submit" value="Enviar">
+              <input class="submit-button" type="submit" value="Enviar">
               </form>
             </div>
-      
+
     </main>
   </body>
 </html>
